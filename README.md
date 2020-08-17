@@ -53,7 +53,7 @@ The Linux AMI, image used in AWS Lambda, doesn't have installed postgres client
 Beacause that this repo is necessary   
 git clone https://github.com/jkehler/awslambda-psycopg2
 
-##
+## TODO
 
 Add tests and refactor the code
 
