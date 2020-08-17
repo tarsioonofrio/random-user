@@ -123,7 +123,7 @@ def lambda_handler(event, context):
     file_name = str(pessoa_id) + ".json"
     s3_path = "randomuser/" + file_name
 
-    s3 = boto3.resource("s3")
     json_data["aquisition_date"] = "{:%Y%m%d_%H%M%s}".format(datetime.now())
-    s3.Bucket(bucket_name).put_object(Key=s3_path, Body=bytes(json.dumps(json_data).encode('UTF-8')))
+    #s3 = boto3.resource("s3")
+    #s3.Bucket(bucket_name).put_object(Key=s3_path, Body=bytes(json.dumps(json_data).encode('UTF-8')))
     # TODO add return data

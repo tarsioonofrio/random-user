@@ -1,0 +1,10 @@
+
+.idea/
+
+*.zip
+
+*.pyc
+
+src/aws-package/**
+
+awslambda-psycopg2/

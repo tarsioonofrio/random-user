@@ -1,7 +1,7 @@
 from sqlalchemy import Table, Column, String, MetaData, Integer, Binary, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 
-db_string = "postgres://postgres:postgres@rbs.c1iklbtaxq8y.us-east-2.rds.amazonaws.com:5432/rbs"
+db_string = "postgres://postgres:postgresrbs123@rbs.c1iklbtaxq8y.us-east-2.rds.amazonaws.com:5432/rbs"
 Base = declarative_base()
 
 
